@@ -1,0 +1,15 @@
+<p> All available posts</p>
+  <ag-grid-angular #agGrid id="postsGrid"
+      style="width:inherit; height:635px; padding-bottom: 10px"
+      class="ag-theme-balham postsDetails-ag-grid"
+      rowSelection="single"
+      supressClickEdit
+      stopEditingWhenGridLosesFocus="true"
+      [rowData]="postsData"
+      [columnDefs]="columnDefs"
+      [context]="context" [frameworkComponents]="frameworkComponents"
+      (rowSelected)="onRowSelected($event)"
+      [floatingFilter]="true"
+      (gridReady)="onGridReady($event)">
+    </ag-grid-angular>
+

@@ -1,0 +1,10 @@
+.mat-button{
+    background-color: #4CAF50;
+    color: white;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  .mat-dialog-actions{
+    float: right;
+  }
